@@ -20,7 +20,7 @@ public class Sixth {
         carry = 1;        
         carryCount++;    
       } else {
-        carry = 0;
+        carry = 0;// Reset carry if no carry is generated
       }
       num1 /= 10;
       num2 /= 10;
